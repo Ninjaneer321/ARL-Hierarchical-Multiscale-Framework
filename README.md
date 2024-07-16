@@ -48,6 +48,7 @@ Guide.
 We request that if you publish results that make use of the ARL-HMS
 software, please cite the following paper and ARL-HMS User's Guide:
 
+```
 @article{Knap2016,
   author = {Knap, J. and Spear, C. and Leiter, K. and Becker, R. and Powell, D.},
   title = {A computational framework for scale-bridging in multi-scale simulations},
@@ -58,7 +59,8 @@ software, please cite the following paper and ARL-HMS User's Guide:
   doi = {https://doi.org/10.1002/nme.5270},
   year = {2016}
 }
-
+```
+```
 @techreport{Leiter2023,
   institution = {{DEVCOM} Army Research Laboratory},
   title={User's Guide for the {Hierarchical MultiScale Framework} ({HMS})},
@@ -67,7 +69,7 @@ software, please cite the following paper and ARL-HMS User's Guide:
   month={Oct},
   number={ARL-TR-9820}
 }
-
+```
 ### License
 
 ARL Hierarchical MultiScale Framework (ARL-HMS) is licensed under the
