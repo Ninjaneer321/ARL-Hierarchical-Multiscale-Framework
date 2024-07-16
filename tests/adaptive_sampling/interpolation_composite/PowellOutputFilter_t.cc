@@ -1,0 +1,43 @@
+//
+// File:      PowellOutputFilter_t.cc
+// Package    base
+//
+// Base classes for HMS.
+//
+
+#if defined(HAVE_BOOST_SERIALIZATION)
+#include <boost/serialization/base_object.hpp>
+#else
+#error boost serialization not available
+#endif // HAVE_BOOST_SERIALIZATION
+
+//
+//
+//
+
+namespace arl {
+  namespace hms {
+
+    //
+    // Serialize value.
+    //
+    template <class Archive>
+    void
+    PowellOutputFilter::serialize(Archive & archive, const unsigned int)
+    {
+
+      //
+      // serialize base class
+      //
+      archive & boost::serialization::base_object<OutputFilter>(*this);
+
+      //
+      //
+      //
+      return;
+
+    }
+
+  }
+}
+

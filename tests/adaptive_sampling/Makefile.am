@@ -1,0 +1,1 @@
+SUBDIRS = adaptive_sampling interpolation_composite interpolation_database interpolation_dpd multiplexer
